@@ -1,0 +1,76 @@
+.input-area {
+  margin-top: 10px;
+  width: 600px;
+  height: 40px;
+  border-radius: 2px 0px 0px 2px;
+  box-sizing: border-box;
+  border: 1px solid #a5acb9;
+  display: flex;
+  background: #ffffff;
+}
+.svgImage {
+  width: 12px;
+  height: 12px;
+  margin-left: 15px;
+  margin-top: 10px;
+  margin-right: 7px;
+}
+input {
+  font-size: 14px;
+  line-height: 20px;
+  width: 100%;
+  mix-blend-mode: normal;
+  /* opacity: 0.4; */
+  border: none;
+  color: black;
+  outline: none;
+}
+
+div.searchLable {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.004em;
+  margin-top: 24px;
+}
+
+#textboxLable {
+  font-size: 14px;
+}
+#text-area {
+  height: 80px;
+}
+textarea {
+  outline: none;
+  resize: none;
+  overflow: auto;
+  width: 100%;
+  border: none;
+}
+textarea::placeholder {
+  font-size: 14px;
+  line-height: 20px;
+  text-indent: 12px;
+  vertical-align: 12px;
+}
+.button {
+  position: absolute;
+  width: 77px;
+  height: 32px;
+  background: #2e75f0;
+  color: white;
+  border-radius: 16px;
+  font-size: 12px;
+  line-height: 16px;
+  left: 103px;
+  margin-top: 24px;
+}
+
+#cancelButton {
+  left: 0px;
+  background: #eaedf2;
+  color: black;
+}
+button {
+  outline: none;
+  border: none;
+}

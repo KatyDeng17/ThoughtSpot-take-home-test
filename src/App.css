@@ -1,0 +1,101 @@
+/* HOME */
+#navBar {
+  width: 100vw;
+  height: 48px;
+  border-bottom: 1px solid #dbdfe7;
+}
+.container {
+  width: 50%;
+  display: flex;
+  position: relative;
+  left: 24px;
+  top: 12px;
+}
+#text {
+  width: 183px;
+
+  margin-right: 20px;
+  letter-spacing: -0.004em;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+#ask-an-expert {
+  font-size: 12px;
+  position: relative;
+  color: #2e75f0;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-weight: 600;
+  line-height: 16px;
+}
+/* Expert page */
+.expert-page-container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  top: 24px;
+  left: 24px;
+}
+.header-text {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.004em;
+}
+#selection2 {
+  position: relative;
+  display: flex;
+  margin-top: 16px;
+}
+.images-area {
+  position: relative;
+  width: 200px;
+  height: 56px;
+  margin-right: 22px;
+}
+
+.images-size {
+  position: absolute;
+  margin: 0;
+  width: 56px;
+  height: 56px;
+  background: #48d1e0;
+  border-radius: 100%;
+  display: flex;
+  float: left;
+}
+img {
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+}
+#image2 {
+  display: flex;
+  left: 76px;
+}
+#without-image {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.004em;
+  justify-content: center;
+  font-size: 32px;
+  line-height: 40px;
+  color: #ffffff;
+  left: 35px;
+}
+#text-exports {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 156px;
+}
+
+.form-area {
+  margin-top: 34px;
+}

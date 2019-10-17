@@ -1,0 +1,22 @@
+.thank-you-container {
+  position: relative;
+  width: 100vw;
+  height: 104px;
+  border-bottom: 1px solid #dbdfe7;
+}
+#thank-you-text {
+  position: absolute;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.004em;
+  left: 24px;
+  top: 24px;
+}
+#export-text {
+  color: #777e8b;
+  position: absolute;
+  font-size: 14px;
+  line-height: 20px;
+  left: 24px;
+  top: 58px;
+}
